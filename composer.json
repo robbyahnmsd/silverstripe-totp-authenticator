@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/totp-authenticator",
+    "name": "robbyahnmsd/totp-authenticator",
     "description": "A TOTP authenticator for use with silverstripe/mfa",
     "type": "silverstripe-vendormodule",
     "keywords": [
