@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/totp-authenticator",
+    "name": "robbyahnmsd/totp-authenticator",
     "description": "A TOTP authenticator for use with silverstripe/mfa",
     "type": "silverstripe-vendormodule",
     "keywords": [
@@ -13,8 +13,8 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "php": "^7.4 || ^8.0",
-        "silverstripe/mfa": "^4.0",
+        "php": "^7.4 || ^8.0",        
+        "robbyahnmsd/silverstripe-mfa": "dev-feature/fix-darkmode",
         "silverstripe/siteconfig": "^4.0",
         "spomky-labs/otphp": "^10",
         "paragonie/constant_time_encoding": "^2.0"
@@ -39,5 +39,12 @@
         ]
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:robbyahnmsd/silverstripe-mfa.git",
+            "private": "true"
+        }
+    ]
 }
