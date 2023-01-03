@@ -1,5 +1,5 @@
 {
-  "name": "silverstripe-totp-authenticator",
+  "name": "robbyahnmsd-totp-authenticator",
   "main": "./client/src/boot/index.js",
   "author": "SilverStripe Ltd",
   "engines": {
