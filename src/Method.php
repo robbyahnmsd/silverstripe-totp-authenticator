@@ -50,15 +50,15 @@ class Method implements MethodInterface
 
     public function getThumbnail(): string
     {
-        return ModuleLoader::getModule('silverstripe/totp-authenticator')
+        return ModuleLoader::getModule('robbyahnmsd/totp-authenticator')
             ->getResource('client/dist/images/totp.svg')
             ->getURL();
     }
 
     public function applyRequirements(): void
     {
-        Requirements::javascript('silverstripe/totp-authenticator: client/dist/js/bundle.js');
-        Requirements::css('silverstripe/totp-authenticator: client/dist/styles/bundle.css');
+        Requirements::javascript('robbyahnmsd/totp-authenticator: client/dist/js/bundle.js');
+        Requirements::css('robbyahnmsd/totp-authenticator: client/dist/styles/bundle.css');
     }
 
     /**
