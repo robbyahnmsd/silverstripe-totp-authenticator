@@ -14,7 +14,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": "^7.4 || ^8.0",        
-        "silverstripe/mfa": "dev-feature/fix-darkmode",
+        "robbyahnmsd/silverstripe-mfa": "dev-feature/fix-darkmode",
         "silverstripe/siteconfig": "^4.0",
         "spomky-labs/otphp": "^10",
         "paragonie/constant_time_encoding": "^2.0"
